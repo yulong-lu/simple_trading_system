@@ -21,7 +21,7 @@ pd.set_option('expand_frame_repr', False)  # 当列太多时不换行
 
 time_interval = '5m'  # 时间间隔设置，这里设置5min
 exchange = ccxt.okx()  # 创建交易所，此处为okx交易所
-exchange.apiKey = 'b0195d81-5bf2-498e-9060-ebd21b19adb8'#此处填写你在okex申请的apiKey，这里所填写的是样本
+exchange.apiKey = 'b0195d81-5bf2-498e-9060-ebd21b19adb8'#此处填写你在okx申请的apiKey，这里所填写的是样本
 exchange.secret = '3B8795EACD6541ABF9F8E48ADE5731CC'
 
 symbol = 'ETH/BTC'  # 交易对
